@@ -1,0 +1,23 @@
+{
+  "short_name": "Easy Byz Creator",
+  "name": "Easy Byz Creator",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/DD4f14vJ/ebcc.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.ibb.co/DD4f14vJ/ebcc.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#030303",
+  "theme_color": "#030303",
+  "display": "standalone",
+  "orientation": "portrait"
+}
