@@ -227,7 +227,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Arthur Santos",
     business: "Proprietário do Barber Club",
     quote: "Antes o WhatsApp era um inferno na sexta e sábado. Hoje o cliente chega com o horário reservado, o barbeiro já sabe o corte, e eu só passo o Pix. Mudou o jogo.",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80&referrerpolicy=no-referrer",
+    avatar: "/assets/avatar-1.jpg",
     impactResult: "+22h salvas por semana"
   },
   {
@@ -235,7 +235,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Mariana Rezende",
     business: "Fundadora do Beauty & Concept",
     quote: "A comissão das minhas manicures era fonte de dor de cabeça todo domingo. O sistema calcula tudo instantaneamente. O suporte deles é excelente.",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80&referrerpolicy=no-referrer",
+    avatar: "/assets/avatar-2.jpg",
     impactResult: "+38% de faturamento"
   }
 ];

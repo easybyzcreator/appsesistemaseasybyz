@@ -3,13 +3,13 @@
   "name": "Easy Byz Creator",
   "icons": [
     {
-      "src": "https://i.ibb.co/DD4f14vJ/ebcc.png",
+      "src": "/assets/ebcc.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "https://i.ibb.co/DD4f14vJ/ebcc.png",
+      "src": "/assets/ebcc.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"

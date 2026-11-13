@@ -1520,14 +1520,70 @@ function CustomSystemPracticeCard() {
         {/* Home bottom handle bar */}
         <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-16 h-1 bg-white/30 rounded-full z-20" />
 
-        {/* PWA Image Area */}
-        <div className="w-full h-full relative z-10 overflow-hidden">
-          <img 
-            src="https://i.ibb.co/v49G9TKn/patitour-2026-01-28-T100659-889.png" 
-            alt="Pati Tour PWA Screen" 
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.06]"
-            referrerPolicy="no-referrer"
-          />
+        {/* PWA Screen Area */}
+        <div className="w-full h-full relative z-10 overflow-hidden flex flex-col justify-between bg-gradient-to-b from-neutral-900 via-neutral-950 to-black text-white p-2.5 pt-6 select-none font-sans">
+          {/* Status bar */}
+          <div className="flex items-center justify-between text-[8px] font-mono text-gray-400 px-1 mb-1">
+            <span>09:41</span>
+            <div className="flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#10B981]" />
+              <span>5G</span>
+            </div>
+          </div>
+
+          {/* Mini Header */}
+          <div className="bg-white/5 border border-white/10 rounded-xl p-2 mb-2">
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[10px] font-black tracking-tight text-white flex items-center gap-1">
+                <Compass size={11} className="text-[#00f0ff]" />
+                PATI TOUR
+              </span>
+              <span className="text-[8px] font-mono px-1.5 py-0.5 rounded-full bg-[#10B981]/20 text-[#10B981] font-bold">
+                PWA VIP
+              </span>
+            </div>
+            <p className="text-[8px] text-gray-400 leading-tight">
+              {language === 'PT' ? 'Foz do Iguaçu Adventure' : 'Adventure Travel Hub'}
+            </p>
+          </div>
+
+          {/* Itinerary Cards */}
+          <div className="space-y-1.5 flex-1 overflow-hidden">
+            <div className="p-1.5 rounded-lg bg-white/5 border border-[#00f0ff]/20">
+              <div className="flex items-center justify-between text-[8px] font-bold text-[#00f0ff]">
+                <span>{language === 'PT' ? 'Dia 1: Cataratas' : 'Day 1: Waterfalls'}</span>
+                <span className="text-[7px] text-[#10B981] font-mono">09:00</span>
+              </div>
+              <p className="text-[7px] text-gray-300 mt-0.5 leading-tight">
+                {language === 'PT' ? 'Trilha & Mirante Principal' : 'Main Trail & Overlook'}
+              </p>
+            </div>
+
+            <div className="p-1.5 rounded-lg bg-white/5 border border-white/5">
+              <div className="flex items-center justify-between text-[8px] font-bold text-gray-200">
+                <span>{language === 'PT' ? 'Dia 2: Macuco Safari' : 'Day 2: Safari Tour'}</span>
+                <span className="text-[7px] text-gray-400 font-mono">14:30</span>
+              </div>
+              <p className="text-[7px] text-gray-400 mt-0.5 leading-tight">
+                {language === 'PT' ? 'Passeio de Barco Aventura' : 'Adventure Boat Ride'}
+              </p>
+            </div>
+
+            <div className="p-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-between">
+              <span className="text-[7px] font-bold text-[#10B981]">
+                {language === 'PT' ? '✓ Vouchers Anexados (3)' : '✓ Attached Vouchers (3)'}
+              </span>
+              <span className="text-[6px] font-mono text-gray-400 uppercase">Offline</span>
+            </div>
+          </div>
+
+          {/* Mini Bottom Nav */}
+          <div className="pt-2 pb-1 border-t border-white/10 flex items-center justify-around text-[8px] text-gray-400">
+            <span className="text-[#00f0ff] font-bold">{language === 'PT' ? 'Roteiro' : 'Trip'}</span>
+            <span>{language === 'PT' ? 'Vouchers' : 'Pass'}</span>
+            <span>SOS</span>
+          </div>
+
           {/* subtle high-contrast gloss overlay */}
           <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent pointer-events-none" />
         </div>

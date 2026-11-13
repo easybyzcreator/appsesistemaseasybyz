@@ -100,10 +100,9 @@ export default function HeroSection() {
             duration: 2.2, 
             ease: "easeInOut"
           }}
-          src="https://i.ibb.co/jvwnLnkd/logo-easybyz.png"
+          src="/assets/logo-easybyz.png"
           alt="Easy Byz Official Watermark"
           className="w-[500px] h-[500px] sm:w-[580px] sm:h-[580px] md:w-[648px] md:h-[648px] max-w-none object-contain selection:bg-transparent"
-          referrerPolicy="no-referrer"
         />
       </div>
 

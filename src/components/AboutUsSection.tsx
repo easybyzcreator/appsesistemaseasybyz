@@ -117,9 +117,8 @@ export default function AboutUsSection() {
                 
                 <div className="relative group w-full max-w-[240px] aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-neutral-900 flex items-center justify-center">
                   <img 
-                    src="https://i.ibb.co/Vcpbvt7G/PATI.jpg" 
+                    src="/assets/pati.png" 
                     alt="Patricia Guimarães" 
-                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover brightness-[1.02] contrast-[1.01] transition-all duration-500 group-hover:scale-105 group-hover:brightness-105"
                   />
                   {/* Premium overlay frame gradient */}

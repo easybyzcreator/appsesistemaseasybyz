@@ -22,14 +22,16 @@ export default function Footer() {
         <div className="flex flex-col justify-between items-center md:items-start md:max-w-xs gap-4 text-center md:text-left">
           <div>
             <a 
-              href="https://ibb.co/HDP5r5T0" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="inline-block group"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="inline-block group cursor-pointer"
             >
               <img 
-                src="https://i.ibb.co/jvwnLnkd/logo-easybyz.png" 
-                alt="logo-easybyz" 
+                src="/assets/logo-easybyz.png" 
+                alt="Easy Byz Creator Logo" 
                 className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-all duration-300" 
               />
             </a>
